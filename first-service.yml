@@ -2,10 +2,6 @@
 server
    port 10002
    
-eureka
-   client
-      serviceUrl
-         defaultZone http127.0.0.110001eureka
 spring
    application
       name first-service
