@@ -1,0 +1,10 @@
+
+      
+zuul:
+   routes:
+      first-service:
+         path: /first-service
+         serviceId: FIRST-SERVICE
+      consumer-service: 
+         path: /consumer-service    
+         serviceId: CONSUMER-SERVICE
