@@ -8,10 +8,14 @@ spring:
                enabled: true
                lower-case-service-id: true
          routes:
-            - id: fisrt
+            - id: baidu
               uri: https://www.baidu.com
               predicates: 
-                  - Path=/
+                  - Path=/baidu
+            - id: first-service      
+              uri: lb://first-service
+              predicates:
+                  - Path=/first-service   
          globalcores:
             coreConfiguration:
                allowerdOrigns: "https://docs.spring.io"
