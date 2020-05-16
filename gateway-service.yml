@@ -12,3 +12,10 @@ spring:
               uri: https://www.baidu.com
               predicates: 
                   - Path=/
+         globalcores:
+            coreConfiguration:
+               allowerdOrigns: "https://docs.spring.io"
+               allowerdMethods:
+                  - GET
+               allowerdMethods:
+                  - Content-Type
